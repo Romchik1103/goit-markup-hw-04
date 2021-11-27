@@ -121,7 +121,13 @@ ul {
 }
 /*----------------HERO--------------*/
 .hero {
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4));
+  background: #2f303a;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero-btn.jpg);
+  background-size: cover;
   padding: 200px 0;
   text-align: center;
 }
@@ -240,6 +246,7 @@ ul {
   width: 100%;
   margin-right: 30px;
 }
+
 .features {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -256,6 +263,19 @@ ul {
   display: flex;
   padding: 0 15px;
 }
+/* .team-social-list {
+  display: flex;
+  justify-content: center;
+}
+.team-social-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: tomato;
+} */
 
 .portfolio-item {
   margin: 15px;
