@@ -119,6 +119,20 @@ ul {
 .header-items {
   margin-right: 50px;
 }
+.icon-header {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+.icons-header {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
+.header-items .text-link:hover,
+.header-items .text-link:focus {
+  color: #2196f3;
+}
 /*----------------HERO--------------*/
 .hero {
   background: #2f303a;
